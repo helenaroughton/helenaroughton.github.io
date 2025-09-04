@@ -1,8 +1,42 @@
-root {
+.background {
+  --primary-color: #c6a8c7;
+}
+
+: main {
+  background-color: ;
+  padding: 5px 5px 0px 5px;
+  margin: 0% 0% 0% 0%;
+}
+
+#her-titles {
+  display: flex;
+}
+
+#her-title-short {
+  font-size: 50px;
+  margin: 0px 0px 0px 0px;
+}
+
+h3 {
+  background-color: var(--primary-color);
+  margin: 0px 0px 0px 0px;
+}
+
+#her-title-long {
+  margin: 0% 0% 0% 5%;
+}
+
+h1 {
+  font-size: 110px;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+body {
   background-color: #c6a8c7;
 }
 
 #helena-photo {
-  height: 200px;
-  width: 50%;
+  height: 50%;
+  width: 40%;
 }
