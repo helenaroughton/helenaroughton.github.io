@@ -1,8 +1,9 @@
-.background {
+.core {
   --primary-color: #c6a8c7;
+  --title-color: #660429;
 }
 
-: main {
+main {
   background-color: ;
   padding: 5px 5px 0px 5px;
   margin: 0% 0% 0% 0%;
@@ -10,6 +11,7 @@
 
 #her-titles {
   display: flex;
+  color: var(--title-color);
 }
 
 #her-title-short {
@@ -33,7 +35,11 @@ h1 {
 }
 
 body {
-  background-color: #c6a8c7;
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: var(--title-color);
 }
 
 #helena-photo {
