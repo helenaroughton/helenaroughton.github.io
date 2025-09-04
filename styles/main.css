@@ -22,6 +22,7 @@ main {
 h3 {
   background-color: var(--primary-color);
   margin: 0px 0px 0px 0px;
+  color: #660429;
 }
 
 #her-title-long {
@@ -35,7 +36,7 @@ h1 {
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: #c6a8c7;
 }
 
 h1 {
@@ -44,5 +45,18 @@ h1 {
 
 #helena-photo {
   height: 50%;
-  width: 40%;
+  width: 50%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 50px;
+  color: #660429;
+}
+
+ul {
+  font-size: 25px;
+  color: #660429;
 }
