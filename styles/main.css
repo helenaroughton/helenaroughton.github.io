@@ -42,10 +42,10 @@ h1 {
   color: #660429;
 }
 
-@media screen (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
   #her-title-short {
     max-width: 25%;
-    font-size: 5px;
+    font-size: 25px;
   }
   #her-title-long {
     max-width: 75%;
@@ -86,7 +86,6 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
-  background-color: ;
 }
 
 ul {
@@ -121,8 +120,96 @@ h4 {
   border-color: #3ed68a;
 }
 
-@media screen (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   #maori-proverb {
     font-size: 10px;
   }
+}
+
+footer {
+  font-size: 30px;
+  color: #660429;
+  font-family: garamond;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+  background-color: #c6a8c7;
+  max-height: 80px;
+}
+
+#banner-photo {
+  height: 10%;
+  width: 100%;
+}
+
+button {
+  font-size: 30px;
+  color: #660429;
+  font-family: garamond;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+  border-radius: 20px;
+  background-color: #3ed68a;
+}
+
+.blog-container {
+  max-width: 50%;
+  margin: auto;
+  background-color: #c5c1f5;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+  color: #660429;
+  font-family: garamond;
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-container {
+    max-width: 75%;
+  }
+  .blog-article {
+    font-size: 10px;
+  }
+}
+
+date {
+  font-size: 20px;
+  color: #660429;
+  font-family: garamond;
+}
+
+.blog-post-title {
+  font-size: 60px;
+  color: #660429;
+  font-family: garamond;
+  margin: auto;
+}
+
+.blog-post-sub-title {
+  font-size: 30px;
+  color: #660429;
+  font-family: garamond;
+  margin: auto;
+  max-width: 80%;
+}
+
+.blog-article {
+  font-size: 15px;
+  color: #660429;
+  font-family: garamond;
+  margin: auto;
+  max-width: 80%;
+  background-color: #c5c1f5;
+}
+
+.blog-tile {
+  font-size: 15px;
+  color: #660429;
+  font-family: garamond;
+  display: inline;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+  background-color: #3ed68a;
 }
