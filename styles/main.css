@@ -1,62 +1,128 @@
 .core {
-  --primary-color: #c6a8c7;
+  --primary-color: #c5c1f5;
   --title-color: #660429;
 }
 
-main {
-  background-color: ;
-  padding: 5px 5px 0px 5px;
-  margin: 0% 0% 0% 0%;
-}
-
 #her-titles {
-  display: flex;
   color: var(--title-color);
+  font-family: garamond;
+  background-color: #c5c1f5;
+  position: relative;
+  display: flex;
+  border-style: solid;
+  border-color: #3ed68a;
+  border-width: 10px;
 }
 
 #her-title-short {
-  font-size: 50px;
-  margin: 0px 0px 0px 0px;
+  font-size: 30px;
+  position: relative;
+  text-align: left;
+  max-width: 20%;
+  margin: 15px;
+  background-color: var(--primary-color);
 }
 
 h3 {
-  background-color: var(--primary-color);
   margin: 0px 0px 0px 0px;
   color: #660429;
 }
 
 #her-title-long {
-  margin: 0% 0% 0% 5%;
+  position: relative;
+  background-color: var(--primary-color);
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
 }
 
 h1 {
-  font-size: 110px;
+  font-size: 70px;
   text-align: center;
-  background-color: var(--primary-color);
+  color: #660429;
+}
+
+@media screen (max-width: 1500px) {
+  #her-title-short {
+    max-width: 25%;
+    font-size: 5px;
+  }
+  #her-title-long {
+    max-width: 75%;
+    font-size: 30px;
+  }
 }
 
 body {
   background-color: #c6a8c7;
 }
 
-h1 {
-  color: var(--title-color);
-}
-
 #helena-photo {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
   margin: auto;
   display: block;
   border-radius: 50%;
+  border-style: double;
+  border-color: #660429;
+  border-width: 15px;
+}
+
+nav {
+  background-color: #c5c1f5;
+  border-style: solid;
+  border-color: #3ed68a;
+  border-width: 15px;
+  border-radius: 20%;
+  position: relative;
+  max-height: 300px;
+  margin: auto;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   color: #660429;
+  font-family: garamond;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-color: ;
 }
 
 ul {
   font-size: 25px;
   color: #660429;
+  font-family: garamond;
+}
+
+h4 {
+  font-family: garamond;
+  font-size: 35px;
+  color: #660429;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+  background-color: #c5c1f5;
+  margin: auto;
+  max-width: 75%;
+}
+
+#maori-proverb {
+  font-size: 25px;
+  color: #660429;
+  font-family: garamond;
+  text-align: justify;
+  margin: auto;
+  max-width: 75%;
+  background-color: #c5c1f5;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3ed68a;
+}
+
+@media screen (max-width: 1500px) {
+  #maori-proverb {
+    font-size: 10px;
+  }
 }
