@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Inline vs Inline-Block</title>
+    <html lang="eng-UK"></html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="interactive-widget=resizes-content" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <banner>
+      <img
+        id="banner-photo"
+        src="../images/helena-mt-arthur.jpg"
+        alt="Helena Mt Arthur"
+      />
+    </banner>
+    <button><a href="../index.html">her home</a></button>
+    <div class="blog-container">
+      <section class="blog-title">
+        <h1 class="blog-post-title">Display Inline vs Display Inline-Block</h1>
+        <date>8 September 2025</date>
+      </section>
+      </section>
+        <h2 class="blog-post-sub-title">My Experience<br /></h2>
+        <section class="blog-article">
+          <p>Researching and writing this blog couldn't have come at a more opportune time. It was 11pm on Thursday and I had spent way too long trying to understand how to put elements horizontally next to each other. I finally cracked it with display:inline;, however, I then proceeded to battle all day Friday with attempts to change the padding, margins, width and height. I spent some time reading about the differences to ensure I understood these correctly and also looked at the code in other websites/blogs to see how others chanegd padding and margin for what I thought were the same type of elements.</p>
+          <p>Little did I know, in changing the display to inline, I had humstrung my elements' flexibility and malleability. I decided to leave my frustrations and unknowns in the big question pile and finish the functionality of my website so that I wouldn't go over the timebox, telling myself I can come back to this later. When I moved to the next task a couple of days later and I saw we were to pick one of four topics and write a blog about it, I noticed one of the topics was inline vs inline-block. I had a light bulb moment, put it into chat gpt, and was dumbfounded to discover the intricacies of inline vs inline-block.</p>
+        </section>
+        <h2 class="blog-post-sub-title">What is display inline?<br /></h2>
+        <section class="blog-article">
+          <p> Display inline changes the positioning of elements so that they flow in the same horizontal line together rather than following after one other on the next line down. The limitations of display inline are that you can't alter the width or height of the element and you can only alter the horizontal padding, margin, or border of the element. Inline is more suited to highlighting/bordering text within a sentence. See the image below for how my navigation tiles looked with just display inline. I had attempted to add margin and padding here which had zero effect and you can see the elements hug each other like they're in the same line of text.
+            </p>
+            <img
+        class="display-blog"
+        src="../images/display-inline-blog.jpg"
+        alt="Blog Navigation Display Inline"
+      />
+          </section>
+         <h2 class="blog-post-sub-title">What is display inline-block?<br /></h2>
+        <section class="blog-article">
+          <p> Display inline-block also changes the positioning of elements so that they flow in the same horizontal line together as other elements with inline or inline-block tags. The big difference here is that the element is also treated like a block element and you can alter positioning and sizing such as padding, margin, borders, width and height. This blew my mind when I learned this key difference. The image below shows inline-block and you can see already the elements are treated more as seperate blocks.
+            </p> <img
+        class="display-blog"
+        src="../images/display-inline-block.jpg"
+        alt="Blog Navigation Display Inline Block"
+      />
+          <p>I played around with different sizing/positioning and the next image shows the elements as inline block with a width of 30%.
+          </p>
+       <img
+        class="display-blog"
+        src="../images/display-inline-block-30.jpg"
+        alt="Blog Navigation Display Inline Block Width 30"
+      />
+
+       <p>This next image shows the elements as inline block with some padding, a height of 150px, margin on the left of 15px, the bottom 15px and width set to auto. You can see that width-auto wraps around the size of the text in the box.
+          </p>
+
+       <img
+        class="display-blog"
+        src="../images/display-inline-block-padding-widthauto-height.jpg"
+        alt="Blog Navigation Display Inline Block with Changes"
+      />
+
+      <p>I had intended to spread the three boxes evenly across this container but that is something I am still yet to figure out. So as you can see while I have discovered the key differences between inline and inline-block, which has helped significantly with my website, I still have a fair bit of understanding to go...</p>
+          </section>
+
+      </section>
+      <section class="nav-blogs">
+        <div class="blog-tile">
+          <a href="https://helenaroughton.github.io/blog/te-houtaewa-template.html">The Story of Te Houtaewa</a>
+        </div>
+        <div class="blog-tile">
+          <a href="https://helenaroughton.github.io/blog/learning-plan.html">Learning Plan</a>
+        </div>
+        <div class="blog-tile"><a href="https://helenaroughton.github.io/blog/identity-values.html">Identity & Values</a></div>
+      </section>
+      
+    </div>
+  </body>
+  <br />
+  <br />
+  <footer>2025 Helena Roughton</footer>
+</html>

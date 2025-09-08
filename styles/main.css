@@ -73,10 +73,11 @@ nav {
   border-style: solid;
   border-color: #3ed68a;
   border-width: 15px;
-  border-radius: 20%;
+  border-radius: 20px;
   position: relative;
   max-height: 300px;
   margin: auto;
+  padding: 20px;
 }
 
 h2 {
@@ -105,6 +106,7 @@ h4 {
   background-color: #c5c1f5;
   margin: auto;
   max-width: 75%;
+  padding: 30px;
 }
 
 #maori-proverb {
@@ -118,6 +120,7 @@ h4 {
   border-style: solid;
   border-width: 5px;
   border-color: #3ed68a;
+  padding: 30px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -127,18 +130,15 @@ h4 {
 }
 
 footer {
-  font-size: 30px;
+  font-size: 25px;
   color: #660429;
   font-family: garamond;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #3ed68a;
   background-color: #c6a8c7;
-  max-height: 80px;
+  padding: 20px;
+  margin: 20px;
 }
 
 #banner-photo {
-  height: 10%;
   width: 100%;
 }
 
@@ -154,11 +154,12 @@ button {
 }
 
 .blog-container {
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
   background-color: #c5c1f5;
   border-style: solid;
-  border-width: 5px;
+  border-radius: 20px;
+  border-width: 15px;
   border-color: #3ed68a;
   color: #660429;
   font-family: garamond;
@@ -177,6 +178,7 @@ date {
   font-size: 20px;
   color: #660429;
   font-family: garamond;
+  padding: 15px;
 }
 
 .blog-post-title {
@@ -195,7 +197,7 @@ date {
 }
 
 .blog-article {
-  font-size: 15px;
+  font-size: 25px;
   color: #660429;
   font-family: garamond;
   margin: auto;
@@ -203,13 +205,31 @@ date {
   background-color: #c5c1f5;
 }
 
+.nav-blogs {
+  margin-top: 100px;
+}
+
 .blog-tile {
-  font-size: 15px;
+  font-size: 30px;
+  text-align: center;
   color: #660429;
   font-family: garamond;
-  display: inline;
+  display: inline-block;
   border-style: solid;
+  border-radius: 20px;
   border-width: 5px;
-  border-color: #3ed68a;
+  border-color: #660429;
   background-color: #3ed68a;
+  padding: 10px;
+  height: 150px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: auto;
+}
+
+.display-blog {
+  max-width: 100%;
+  margin: 10px;
+  background-color: #660429;
+  padding: 5px;
 }
