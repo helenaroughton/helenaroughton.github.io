@@ -72,10 +72,9 @@ nav {
   background-color: #c5c1f5;
   border-style: solid;
   border-color: #3ed68a;
-  border-width: 15px;
+  border-width: 10px;
   border-radius: 20px;
   position: relative;
-  max-height: 300px;
   margin: auto;
   padding: 20px;
 }
@@ -208,6 +207,7 @@ date {
 
 .nav-blogs {
   margin-top: 100px;
+  display: flex;
 }
 
 .blog-tile {
@@ -215,7 +215,7 @@ date {
   text-align: center;
   color: #660429;
   font-family: garamond;
-  display: inline-block;
+  display: flex;
   border-style: solid;
   border-radius: 20px;
   border-width: 5px;
@@ -235,9 +235,8 @@ date {
   padding: 5px;
 }
 
-.hauora-table,
-th,
-td {
+// -- currently cannoy get borders to show up -- //
+.hauora-table{
   font-size: 20px;
   color: #660429;
   font-family: garamond;
@@ -245,4 +244,15 @@ td {
   border-width: 2px;
   border-collapse: collapse;
   background-color: #c5c1f5;
+}
+
+#hauora-house{
+  max-width: 90%;
+  margin: 10px;
+  background-color: #660429;
+  padding: 10px;
+  margin:20px;
+  display: flex;
+  
+}
 }
