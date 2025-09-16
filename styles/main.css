@@ -121,6 +121,7 @@ h4 {
   border-width: 5px;
   border-color: #3ed68a;
   padding: 30px;
+  border-collapse: collapse;
 }
 
 @media screen and (max-width: 1200px) {
@@ -232,4 +233,16 @@ date {
   margin: 10px;
   background-color: #660429;
   padding: 5px;
+}
+
+.hauora-table,
+th,
+td {
+  font-size: 20px;
+  color: #660429;
+  font-family: garamond;
+  border-color: #660429;
+  border-width: 2px;
+  border-collapse: collapse;
+  background-color: #c5c1f5;
 }
