@@ -42,17 +42,6 @@ h1 {
   color: #660429;
 }
 
-@media screen and (max-width: 1500px) {
-  #her-title-short {
-    max-width: 25%;
-    font-size: 25px;
-  }
-  #her-title-long {
-    max-width: 75%;
-    font-size: 30px;
-  }
-}
-
 body {
   background-color: #c6a8c7;
 }
@@ -123,12 +112,6 @@ h4 {
   border-collapse: collapse;
 }
 
-@media screen and (max-width: 1200px) {
-  #maori-proverb {
-    font-size: 10px;
-  }
-}
-
 footer {
   font-size: 25px;
   color: #660429;
@@ -163,15 +146,6 @@ button {
   border-color: #3ed68a;
   color: #660429;
   font-family: garamond;
-}
-
-@media screen and (max-width: 1200px) {
-  .blog-container {
-    max-width: 75%;
-  }
-  .blog-article {
-    font-size: 10px;
-  }
 }
 
 date {
@@ -236,7 +210,7 @@ date {
 }
 
 // -- currently cannoy get borders to show up -- //
-.hauora-table{
+.hauora-table {
   font-size: 20px;
   color: #660429;
   font-family: garamond;
@@ -246,13 +220,11 @@ date {
   background-color: #c5c1f5;
 }
 
-#hauora-house{
+#hauora-house {
   max-width: 90%;
   margin: 10px;
   background-color: #660429;
   padding: 10px;
-  margin:20px;
+  margin: 20px;
   display: flex;
-  
-}
 }
