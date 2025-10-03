@@ -6,6 +6,7 @@
 @media screen and (max-width: 768px) {
   #her-title-short {
     font-size: 8px !important;
+    max-width: 25% !important;
   }
   h1 {
     font-size: 30px !important;
@@ -80,7 +81,7 @@
   position: relative;
   text-align: left;
   max-width: 20%;
-  margin: 15px;
+  margin: 10px;
   background-color: var(--primary-color);
 }
 
