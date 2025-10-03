@@ -3,12 +3,46 @@
   --title-color: #660429;
 }
 
+@media screen and (max-width: 768px) {
+  #her-title-short {
+    font-size: 8px !important;
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+  nav {
+    max-width: 75%;
+  }
+  #nav-blogs {
+    display: flex;
+    flex-wrap: flex;
+  }
+  ul {
+    font-size: 15px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  #helena-photo {
+    margin-top: 30px !important;
+    height: 60% !important;
+    width: 60% !important;
+  }
+  h4 {
+    font-size: 25px !important;
+  }
+  #maori-proverb {
+    font-size: 15px !important;
+  }
+}
+
 #her-titles {
   color: var(--title-color);
   font-family: garamond;
   background-color: #c5c1f5;
   position: relative;
   display: flex;
+  flex-wrap: flex;
   border-style: solid;
   border-color: #3ed68a;
   border-width: 10px;
@@ -34,6 +68,8 @@ h3 {
   text-align: center;
   max-width: 80%;
   margin: auto;
+  display: flex;
+  flex-wrap: flex;
 }
 
 h1 {
@@ -44,6 +80,11 @@ h1 {
 
 body {
   background-color: #c6a8c7;
+}
+
+#home-page {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #helena-photo {
