@@ -13,10 +13,6 @@
   nav {
     max-width: 75%;
   }
-  #nav-blogs {
-    display: flex;
-    flex-wrap: flex;
-  }
   ul {
     font-size: 15px !important;
   }
@@ -24,7 +20,7 @@
     font-size: 25px !important;
   }
   #helena-photo {
-    margin-top: 30px !important;
+    margin-bottom: 20px !important;
     height: 60% !important;
     width: 60% !important;
   }
@@ -33,6 +29,37 @@
   }
   #maori-proverb {
     font-size: 15px !important;
+  }
+  button {
+    font-size: 15px !important;
+  }
+  date {
+    font-size: 15px !important;
+  }
+  .blog-container {
+    max-width: 90% !important;
+  }
+  .blog-post-title {
+    font-size: 30px !important;
+  }
+  .blog-post-sub-title {
+    font-size: 20px !important;
+  }
+  .blog-article {
+    font-size: 15px !important;
+  }
+  .nav-blogs {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .blog-tile {
+    max-width: 80% !important;
+    font-size: 25px !important;
+    max-height: 70px !important;
+  }
+  .hauora-table {
+    font-size: 15px !important;
+    margin: 0 auto !important;
   }
 }
 
@@ -84,7 +111,7 @@ body {
 
 #home-page {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 
 #helena-photo {
@@ -250,22 +277,23 @@ date {
   padding: 5px;
 }
 
-// -- currently cannoy get borders to show up -- //
 .hauora-table {
   font-size: 20px;
   color: #660429;
   font-family: garamond;
   border-color: #660429;
   border-width: 2px;
-  border-collapse: collapse;
+  border-style: solid;
   background-color: #c5c1f5;
+  margin: 0 auto;
+  width: 80%;
 }
 
 #hauora-house {
   max-width: 90%;
-  margin: 10px;
   background-color: #660429;
   padding: 10px;
-  margin: 20px;
   display: flex;
+  margin: 0 auto;
+  width: 85%;
 }
